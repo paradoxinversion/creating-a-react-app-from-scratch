@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11"
   }
 }
